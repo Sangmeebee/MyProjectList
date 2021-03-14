@@ -1,1 +1,77 @@
-# MyProjectList
+# 나의 프로젝트
+
+## 1. 패션노트
+
+#### 개요
+
+- 자신의 패션을 평가받고, 남의 패션을 평가해주어 패션으로 경쟁하며 소통 할 수 있는 어플리케이션
+
+#### 기술스택
+
+- Kotlin, Android
+- Retrofit2, MVVM(Model-View-ViewModel), RxJava, Java
+- Spring Boot
+- AWS EC2, AWS S3, AWS RDS
+
+#### 설계
+
+- 프론트엔드
+  - 서버와 retrofilt2 라이브러리와 RxJava를 이용하여 데이터를 주고 받았습니다.
+  - 이미지는 이미지 명을 DB에 저장하고 파일은 AWS S3에 저장하였습니다.
+  - 아키텍쳐는 MVVM을 사용하였습니다.
+- 백엔드
+  - Spring Boot 프레임워크를 이용하였습니다.
+  - DB 구조를 설계했습니다.
+  - AWS EC2를 이용하여 배포했습니다.
+- 팀구성
+  - 개인
+- URL
+  - [플레이 스토어](https://play.google.com/store/apps/details?id=com.sangmee.fashionpeople)
+  - [GIT 주소 (프론트엔드)](https://github.com/Sangmeebee/FashionPeople)
+  - [GIT 주소 (백엔드)](https://github.com/Sangmeebee/FashionPeopleDB)
+
+
+
+## 2. 아이가릿 - Eye Got it
+
+#### 개요
+
+- 사물인식을 이용한 시각장애인을 위한 길안내 시스템 어플리케이션
+
+#### 기술스택
+
+- Java, Android
+- Google Firebase Realtime Database
+- Spring 
+- AWS EC2
+
+#### 기능
+
+- 회원가입과 로그인
+   - 회원가입 시 보호자와 사용자를 연동한 후 로그인 과정을 거칩니다.
+
+- 경로설정 (보호자)
+  - 보호자가 사용자가 자주 가는 몇 가지 경로를 클릭만으로 PIN point와 안내 텍스트를 이용하여 미리 설정합니다.
+
+- 음성으로 경로안내 (사용자)
+  - 보호자가 미리 설정해 둔 경로를 사용자는 음성을 통해서 “선택” 하고 음성을 통하여 “안내” 받습니다.
+
+- 위험알림 전송
+  - 위험 상황 발생 시 사용자가 화면을 오른쪽으로 drag 함으로써 보호자에게 위험 알림을 전송 할 수 있습니다.
+    또한, 사용자의 기기의 심각한 충돌 발생 시 보호자에게 자동으로 위험 알림이 전송됩니다.
+
+- 현재위치 전송
+  - 위험 상황을 대비하여 사용자가 화면을 왼쪽으로 drag 함으로써 보호자에게 현재 위치를 전송 할 수 있습니다.
+
+- 신호등 인식과 사물 거리 인식
+  - 카메라가 장착된 안경을 사용하여 신호등의 적색신호와 녹색신호를 판별할 수 있습니다.
+  - 또한, 물체(장애물)의 위치와 사용자 사이의 거리를 측정 할 수 있습니다.
+
+#### 팀구성 
+
+- 대학동기
+
+#### URL
+
+- [GIT 주소 (모바일)](https://github.com/Sangmeebee/EyeGotIt)
+- [GIT 주소 (웹)](
