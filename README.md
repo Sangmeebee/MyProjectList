@@ -74,4 +74,4 @@
 #### URL
 
 - [GIT 주소 (모바일)](https://github.com/Sangmeebee/EyeGotIt)
-- [GIT 주소 (웹)](
+- [GIT 주소 (웹)](https://github.com/Sangmeebee/EyeGotIt_Web)
