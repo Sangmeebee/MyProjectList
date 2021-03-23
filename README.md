@@ -67,6 +67,18 @@
   - 카메라가 장착된 안경을 사용하여 신호등의 적색신호와 녹색신호를 판별할 수 있습니다.
   - 또한, 물체(장애물)의 위치와 사용자 사이의 거리를 측정 할 수 있습니다.
 
+#### 내가 구현한 부분
+
+- 회원가입과 로그인
+  - Firebase RealTime Database를 이용하여 회원가입 로그인 기능을 구현했습니다.
+- 경로설정
+  - Naver Map API의 Marker의 좌표를 DB에 저장했습니다.
+- 경로안내
+  - 현재 위치의 자표와 DB에 저장되있는 경로의 좌표를 비교해서 Marker 5m 이내에 사용자가 있는지 비교하는 로직을 구현했습니다.
+- 신호등 인식
+  - Tensorflow Object Detection API를 사용하여 신호등의 색을 구별했습니다.
+  - [신호등 교육과정 정리](https://github.com/Sangmeebee/Tensorflow-ObjectDetectionApi)
+
 #### 팀구성 
 
 - 대학동기 4인
