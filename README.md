@@ -28,7 +28,7 @@
   - 스타일, 브랜드, 계정 별로 검색할 수 있다.
 
 #### 기획안 / 모델구조 / 요구사항 분석서
-참고 자료 : [패션노트 자료](https://github.com/Sangmeebee/FashionPeople/tree/master/FashionPeople%20%EC%9E%90%EB%A3%8C)
+- 참고 자료 : [패션노트 자료](https://github.com/Sangmeebee/FashionPeople/tree/master/FashionPeople%20%EC%9E%90%EB%A3%8C)
 
 #### 내가 구현한 부분
 - 전부
