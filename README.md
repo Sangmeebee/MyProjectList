@@ -24,7 +24,7 @@
   - DB 구조를 설계했습니다.
   - AWS EC2를 이용하여 배포했습니다.
 - 팀구성
-  - 개인
+  - 2인
 - URL
   - [플레이 스토어](https://play.google.com/store/apps/details?id=com.sangmee.fashionpeople)
   - [GIT 주소 (프론트엔드)](https://github.com/Sangmeebee/FashionPeople)
