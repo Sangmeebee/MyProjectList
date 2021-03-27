@@ -27,8 +27,8 @@
   - 2인
 - URL
   - [플레이 스토어](https://play.google.com/store/apps/details?id=com.sangmee.fashionpeople)
-  - [GIT 주소 (프론트엔드)](https://github.com/Sangmeebee/FashionPeople)
-  - [GIT 주소 (백엔드)](https://github.com/Sangmeebee/FashionPeopleDB)
+  - [GIT 주소 (모바일 앱)](https://github.com/Sangmeebee/FashionPeople)
+  - [GIT 주소 (서버)](https://github.com/Sangmeebee/FashionPeopleDB)
 
 
 
