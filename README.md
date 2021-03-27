@@ -13,6 +13,17 @@
 - Spring Boot
 - AWS EC2, AWS S3, AWS RDS
 
+#### 설계
+
+- 프론트엔드
+  - 서버와 retrofilt2 라이브러리와 RxJava를 이용하여 데이터를 주고 받았습니다.
+  - 이미지는 이미지 명을 DB에 저장하고 파일은 AWS S3에 저장하였습니다.
+  - 아키텍쳐는 MVVM을 사용하였습니다.
+- 백엔드
+  - Spring Boot 프레임워크를 이용하였습니다.
+  - DB 구조를 설계했습니다.
+  - AWS EC2를 이용하여 배포했습니다.
+
 #### 기능
 - 평가
   - 남들의 패션을 보고 점수를 매겨보자
@@ -33,19 +44,9 @@
 #### 내가 구현한 부분
 - 전부
 
-#### 설계
-
-- 프론트엔드
-  - 서버와 retrofilt2 라이브러리와 RxJava를 이용하여 데이터를 주고 받았습니다.
-  - 이미지는 이미지 명을 DB에 저장하고 파일은 AWS S3에 저장하였습니다.
-  - 아키텍쳐는 MVVM을 사용하였습니다.
-- 백엔드
-  - Spring Boot 프레임워크를 이용하였습니다.
-  - DB 구조를 설계했습니다.
-  - AWS EC2를 이용하여 배포했습니다.
-- 팀구성
+#### 팀구성
   - 2인
-- URL
+#### URL
   - [플레이 스토어](https://play.google.com/store/apps/details?id=com.sangmee.fashionpeople)
   - [GIT 주소 (모바일 앱)](https://github.com/Sangmeebee/FashionPeople)
   - [GIT 주소 (서버)](https://github.com/Sangmeebee/FashionPeopleDB)
